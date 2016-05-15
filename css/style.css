@@ -1,0 +1,220 @@
+.sitecontainer {
+    background-image: url("../images/cutlery-wallpaper-2048x1152.jpg");
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.menu {
+    margin-left: 360px;
+    float: none !important;
+}
+
+.navbar-default {
+    background: transparent;
+    border: 0;
+    margin-bottom: 0;
+}
+
+.brandName {
+    font-family: 'mr_de_havilandregular', cursive;
+    font-size: 50px;
+    line-height: 1, 4cm;
+    color: whitesmoke;
+    margin-top: 50px;
+    float: right;
+    margin-right: 20px;
+}
+
+.brand {
+    width: 290px;
+    height: 150px;
+    background-color: rgba(238, 153, 145, 0.8);
+    float: right;
+}
+
+.lines {
+    height: 1px;
+    background-color: #7B7C7B;
+}
+
+#leftline {
+    width: 230px;
+    margin-left: 30px;
+}
+
+#rightline {
+    width: 615px;
+}
+
+.leftBoxText {
+    width: 270px;
+    height: 170px;
+    padding-top: 70px;
+}
+
+.leftBox {
+    width: 290px;
+    height: 680px;
+    background-color: #1E1E1E;
+    background-color: rgba(238, 153, 145, 0.8);
+}
+
+.leftText {
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    color: #3E3F3E;
+    word-wrap: break-word;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.welcome {
+    font: normal;
+    color: #7B7C7B;
+    text-align: center;
+}
+
+.rightBox {
+    width: 615px;
+    height: auto;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 20px;
+    display: block;
+    background-color: rgba(238, 153, 145, 0.8);
+}
+
+.recipeText {
+    margin-top: 10px;
+    text-align: left;
+    color: #474747;
+    word-wrap: break-word;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.recipeName {
+    font: normal;
+    color: #7B7C7B;
+    margin-top: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.recipeName2 {
+    font: normal;
+    color: #7B7C7B;
+    margin-top: 60px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.recipeImage {
+    width: 250px;
+    height: 210px;
+    float: right;
+    margin-left: 20px;
+}
+
+.imageBox {
+    width: 200px;
+    height: 250px;
+}
+
+.insideLine {
+    width: 547px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1px;
+    background-color: #7B7C7B;
+}
+
+.nav navbar-nav {}
+
+.li {
+    float: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+@media (min-width: 1000px) and (max-width: 769px) {}
+
+@media screen and (max-width: 1000px) {
+    .rightBox {
+        width: auto;
+        height: auto;
+    }
+  .leftBoxText {
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+}
+    .recipeImage {
+        float: none;
+    }
+    .leftBox {
+        width: auto;
+        float: none;
+        height: auto;
+        text-align: center;
+    }
+    .insideLine {
+        width: 293px;
+    }
+    #rightline {
+        width: 293px;
+    }
+   
+    .brand {
+        width: auto;
+        float: none;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .leftBoxText {
+        padding-top: 20px;
+        
+        
+    }
+    .li {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .footer {
+        position: static;
+    }
+    .menu {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .menu {
+        margin-left: 0;
+    }
+    .li {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.footer {
+    width: 100%;
+    background-color: #ed9c9c;
+    position: relative;
+    clear: both;
+    height: 60px;
+    padding-top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

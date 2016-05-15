@@ -1,0 +1,10 @@
+{
+  "name": "dinara-recipies",
+  "version": "1.0.0",
+  "description": "Dinara's Recipies",
+  "main": "js/app.js",
+  "dependencies": {
+    "http-server": "^0.8.5"
+  },
+  "author": "Dinara Khubieva"
+}
