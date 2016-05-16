@@ -1,3 +1,2 @@
-# recipe_website
-Recipes website
-[Demo for my online store](https://dinarah.github.io/Online_store/public)
+My Recipes website
+[Demo for my Recipes website](https://dinarah.github.io/recipe_website)
